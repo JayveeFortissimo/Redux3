@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header{
+    min-height: 5rem;
+    display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+ul button{
+    height: 2rem;
+    width: auto;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+
+section{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+section div{
+    height: auto;
+    width: 30rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+form input,button{
+    height: 2rem;
+    padding: 0px 10px;
+    cursor: pointer;
+}
